@@ -5,7 +5,7 @@ CircGO: Predicting circRNA Functions through Self-Supervised Learning of Heterog
 `You can create a conda environment for CircGO by ‘conda env create -f environment.yml‘.`
 
 ## Data
-
+Because the file size exceeds the limit, the data can be downloaded from [data](https://drive.google.com/file/d/1vwsrsj9DghGTUy_poHATS5N9Jh0KQzYV/view?usp=drive_link).
 
 ## Pretrain and Finetune
 `You can pretrain CircGO by ‘python main.py‘. You can predict CircRNA function by ‘python predict.py‘.`
