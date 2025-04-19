@@ -61,7 +61,7 @@ def pri_task(embeds_dict, labels_dict, num_class, device, args, isTest=True):
     for _ in range(run_num):
         model = FunctionPredictor(hid_units, nb_classes)
 
-        opt = torch.optim.Adam(model.parameters(), lr=args.lr_d, weight_decay=args.lr_d)
+        opt = torch.optim.Adam(model.parameters(), lr=args.lr_d, weight_decay=args.wd_d)
         if torch.cuda.is_available():
             model.cuda()
 
