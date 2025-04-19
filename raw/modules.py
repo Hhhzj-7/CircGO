@@ -1,3 +1,6 @@
+import torch
+from torch import nn
+import math 
 class FunctionPredictor(torch.nn.Module):
     def __init__(self, input_size, output_size, drop_rate=0.1):
         super(FunctionPredictor, self).__init__()
