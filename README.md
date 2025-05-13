@@ -11,7 +11,7 @@ we present a computational method named CircGO for circRNA GO function predictio
 Because the file size exceeds the limit, the data can be downloaded from [data](https://drive.google.com/file/d/1vwsrsj9DghGTUy_poHATS5N9Jh0KQzYV/view?usp=drive_link).
 
 ## Pretrain and Finetune
-You can pretrain CircGO and save the model parameters by ‘python main.py‘.
+You can pretrain CircGO and save the model parameters by ‘python main.py‘.<br>
 You can load the model parameters, predict CircRNA function and then evaluate CircGO by ‘python predict.py‘.
 
 ## Contact
